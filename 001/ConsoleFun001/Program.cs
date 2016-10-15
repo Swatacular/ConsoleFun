@@ -10,19 +10,42 @@ namespace ConsoleFun001
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            List<char> inputList = new List<char>();
-            for (int i = 0; i < (input.Count<char>()); i++)
+            Console.WriteLine("Hello!, I will reverse your number or word for you!");
+            Console.Write("Please enter your number or word: ");
+            string stringInput;
+            //Added the below code so it wouldn't work with any charcters and only work with numbers
+            int input;
+            while (true)
             {
-                inputList.Add((input.ElementAt(i)));
+                try
+                {
+                    input = Convert.ToInt32(Console.ReadLine());
+                    break;
+                }
+                catch
+                {
+                    Console.Clear();
+                    Console.WriteLine("You have not entered a valid number");
+                    Console.WriteLine();
+                    Console.Write("Please enter your number or word: ");
+                }
             }
-            Console.WriteLine("Reversed Input");
-            foreach (char charcter in inputList.Reverse<char>())
+            stringInput = input.ToString();
+            //--------
+            List<char> inputList = new List<char>(); //char is like a string, except it only contains one character
+            //A simple for loop. i++ adds one for every time the loop runs, and it keeps on running untill i is greater than or equal to the number of charcters in the list.
+            for (int i = 0; i < stringInput.Count<char>(); i++)
+            {
+                inputList.Add(stringInput.ElementAt(i));
+            }
+            Console.WriteLine("Here is the reversed version.");
+            //A foreach loop, it takes an array or list and writes the charcter to each item in the list.
+            foreach (char charcter in inputList.Reverse<char>()) //The list that this loop is running is actually a reversed version of it using the .reverse method.
             {
                 Console.Write(charcter);
             }
             Console.WriteLine();
-            Console.Write("Press any key to end program...");
+            Console.WriteLine("Press any key to end program...");
             Console.ReadKey();
         }
     }
