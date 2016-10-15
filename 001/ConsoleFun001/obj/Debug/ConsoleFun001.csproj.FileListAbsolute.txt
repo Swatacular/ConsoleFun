@@ -1,1 +1,7 @@
 C:\Users\Thomas\Desktop\Programming\Version-Control\ConsoleFun\001\ConsoleFun001\ConsoleFun001\bin\Debug\ConsoleFun001.exe.config
+C:\Users\Thomas\Desktop\Programming\Version-Control\ConsoleFun\001\ConsoleFun001\bin\Debug\ConsoleFun001.exe.config
+C:\Users\Thomas\Desktop\Programming\Version-Control\ConsoleFun\001\ConsoleFun001\bin\Debug\ConsoleFun001.exe
+C:\Users\Thomas\Desktop\Programming\Version-Control\ConsoleFun\001\ConsoleFun001\bin\Debug\ConsoleFun001.pdb
+C:\Users\Thomas\Desktop\Programming\Version-Control\ConsoleFun\001\ConsoleFun001\obj\Debug\ConsoleFun001.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\Programming\Version-Control\ConsoleFun\001\ConsoleFun001\obj\Debug\ConsoleFun001.exe
+C:\Users\Thomas\Desktop\Programming\Version-Control\ConsoleFun\001\ConsoleFun001\obj\Debug\ConsoleFun001.pdb
