@@ -1,0 +1,6 @@
+C:\Users\Thomas\Desktop\Programming\Version-Control\002\002\bin\Debug\002.exe.config
+C:\Users\Thomas\Desktop\Programming\Version-Control\002\002\bin\Debug\002.exe
+C:\Users\Thomas\Desktop\Programming\Version-Control\002\002\bin\Debug\002.pdb
+C:\Users\Thomas\Desktop\Programming\Version-Control\002\002\obj\Debug\002.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\Programming\Version-Control\002\002\obj\Debug\002.exe
+C:\Users\Thomas\Desktop\Programming\Version-Control\002\002\obj\Debug\002.pdb
